@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       <div className='flex gap-4 text-xl'>
       <NavLink to='/' >Home</NavLink>
-      <NavLink to='/coin' >Coins</NavLink>
+      <NavLink to='/coins' >Coins</NavLink>
       <NavLink to='/contact' >Contact</NavLink>
       <NavLink to='/about' >About</NavLink>
       </div>
