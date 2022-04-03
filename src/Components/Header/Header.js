@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div className='sticky top-0 bg-white px-12 py-8 flex justify-center md:justify-between'>
+    <div className='sticky z-10 drop-shadow-md top-0 bg-white px-12 py-8 flex justify-center md:justify-between'>
       <div className='hidden md:block'>
         <Link to='/' className='font-bold font-sans text-gray-600 text-xl' >
           Crypto Cafe
